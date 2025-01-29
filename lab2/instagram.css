@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.logotip img {
+    width: 380px; 
+    height: auto;
+}
+.rectangle {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.rectangle h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.rectangle input {
+    width: 85%;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.rectangle button {
+    width: 85%;
+    height: 40px;
+    background-color: rgb(0, 149, 246);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.rectangle h2 {
+    font-size: 16px;
+    opacity: 0.5;
+    margin: 15px 0;
+}
+.facelogin, .forgotpassword {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    display: block;
+    margin-top: 10px;
+}
+.facelogin {
+    font-weight: bold;
+}
